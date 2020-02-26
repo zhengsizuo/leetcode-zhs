@@ -1,2 +1,2 @@
 # leetcode-zhs
-practice code in LeetCode
+Practicing code in LeetCode
