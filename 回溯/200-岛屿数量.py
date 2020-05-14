@@ -36,7 +36,7 @@ class Solution:
             return
 
 
-"""精简版"""
+"""精简版，去掉marked数组"""
 
 class Solution:
     directs = [(0, 1), (0, -1), (1, 0), (-1, 0)]
