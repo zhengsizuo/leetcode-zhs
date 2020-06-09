@@ -12,7 +12,7 @@ root.right = TreeNode(3)
 root.right.left = TreeNode(5)
 root.right.right = TreeNode(6)
 
-"""核心思路：让队列只维持当前层的元素"""
+"""核心思路：让队列只维持当前层的元素；其实就是用队列做BFS"""
 class Solution(object):
     def levelOrder(self, root):
         """

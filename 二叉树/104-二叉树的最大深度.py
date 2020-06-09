@@ -1,6 +1,5 @@
 """层序遍历简化版"""
 
-
 # Definition for a binary tree node.
 # class TreeNode(object):
 #     def __init__(self, x):

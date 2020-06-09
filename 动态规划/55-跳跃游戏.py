@@ -20,3 +20,19 @@ class Solution(object):
                     return False
         
         return True
+
+
+"""官方题解，贪心法"""
+class Solution:
+    def canJump(self, nums: List[int]) -> bool:
+        n, rightmost = len(nums), 0
+        for i in range(n):
+            if i <= rightmost:
+                # 看从i能不能跳更远，若能则更新
+                rightmost = max(rightmost, i + nums[i])
+                if rightmost >= n - 1:
+                    # 到达最后一个位置
+                    return True
+        return False
+
+# https://leetcode-cn.com/problems/jump-game/solution/tiao-yue-you-xi-by-leetcode-solution/

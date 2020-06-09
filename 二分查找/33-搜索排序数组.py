@@ -4,13 +4,16 @@ class Solution:
             return -1
 
         if target >= nums[0]:
+            # 从头往后找
             for i in range(len(nums)):
                 if target == nums[i]:
                     return i
                 if nums[i] < nums[0] or i == len(nums) - 1:
+                    # 如果到突变的位置还没找到，返回-1
                     return -1
 
         else:
+            # 从后往前找
             if target > nums[-1]:
                 return -1
             for i in reversed(range(len(nums))):
@@ -20,7 +23,7 @@ class Solution:
                     return -1
 
 
-"""官方题解"""
+"""官方题解，二分搜索"""
 class Solution:
     def search(self, nums: List[int], target: int) -> int:
         if not nums:
@@ -41,3 +44,6 @@ class Solution:
                 else:
                     r = mid - 1
         return -1
+
+
+nums = [4, 5, 6, 7, 0, 1, 2]

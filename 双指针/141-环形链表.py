@@ -1,4 +1,4 @@
-# 双指针技巧：快慢指针或使用哈希表
+"""双指针技巧：快慢指针"""
 # Definition for singly-linked list.
 # class ListNode(object):
 #     def __init__(self, x):
@@ -21,4 +21,19 @@ class Solution(object):
                 return False
             if fast == slow:
                 return True
+        return False
+
+
+"""哈希表法"""
+
+
+class Solution:
+    def hasCycle(self, head: ListNode) -> bool:
+        hash_set = set()
+        while head:
+            if head in hash_set:
+                return True
+            hash_set.add(head)
+            head = head.next
+
         return False

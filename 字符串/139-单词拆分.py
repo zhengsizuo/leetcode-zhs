@@ -28,7 +28,7 @@
 """带备忘录的回溯"""
 import functools
 class Solution:
-    def wordBreak(self, s: str, wordDict: List[str]) -> bool:
+    def wordBreak(self, s: str, wordDict) -> bool:
         @functools.lru_cache()
         def backtrack(s):
             if len(s) == 0:

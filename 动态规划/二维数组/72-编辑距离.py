@@ -1,4 +1,4 @@
-
+"""二维数组动态规划"""
 def insert(string, char, pos):
     str_list = list(string)
     print(str_list)
