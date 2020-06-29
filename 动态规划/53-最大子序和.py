@@ -20,7 +20,7 @@ class Solution:
         if not nums:
             return 0
 
-        # dp数组含义：以nums[i]结尾的所有子数组最大和
+        # dp数组含义：以nums[i]结尾的所有连续子数组最大和
         dp = [0] * len(nums)
         dp[0] = nums[0]
         for i in range(1, len(nums)):

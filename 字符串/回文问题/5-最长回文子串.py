@@ -63,4 +63,4 @@ class Solution(object):
 
 input_str = 'babad'
 sl = Solution()
-sl.longestPalindrome(input_str)
+print(sl.longestPalindrome(input_str))

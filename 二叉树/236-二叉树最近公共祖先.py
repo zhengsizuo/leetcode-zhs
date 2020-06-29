@@ -16,34 +16,22 @@ root.right = TreeNode(1)
 root.right.left = TreeNode(0)
 root.right.right = TreeNode(8)
 
+"""遇到二叉树的题，先写递归框架，再明确函数返回值含义"""
 class Solution:
     def lowestCommonAncestor(self, root: 'TreeNode', p: 'TreeNode', q: 'TreeNode') -> 'TreeNode':
+        if not root or root == p or root == q:
+            return root
+        left = self.lowestCommonAncestor(root.left, p, q)
+        right = self.lowestCommonAncestor(root.right, p, q)
+        # 第一种情况，p和q分别位于root的左右子树
+        if left and right: return root
 
-        path = {p: [], q: []}
+        # 第二种情况，p和q都不在root的子树中
+        if not left and not right: return
 
-        def DFS(root, layer, target):
-            if not root:
-                return
-
-            layer += 1
-            path[target].append((root.val, layer))
-            if root == target:
-                return
-
-            DFS(root.left, layer, target)
-            DFS(root.right, layer, target)
-
-        DFS(root, 0, p)
-        DFS(root, 0, q)
-        print(path[p])
-        print(path[q])
-
-        if len(path[p]) > len(path[q]):
-            path[p], path[q] = path[q], path[p]
-
-        for i in reversed(range(len(path[p]))):
-            if path[p][i] in path[q]:
-                return path[p][i]
+        # 第三种情况，p和q只有一个存在于root为根的树中
+        if not left: return right
+        if not right: return left
 
 
 """简洁题解"""

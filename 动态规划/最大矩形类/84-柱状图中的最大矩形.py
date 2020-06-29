@@ -1,6 +1,6 @@
 """超出时间限制"""
 class Solution:
-    def largestRectangleArea(self, heights: List[int]) -> int:
+    def largestRectangleArea(self, heights) -> int:
         if not heights:
             return 0
 
@@ -25,7 +25,7 @@ class Solution:
 
 """单调递增栈的解法，核心思想是找到左边第一个比i小的和右边第一个比i小的"""
 class Solution:
-    def largestRectangleArea(self, heights: List[int]) -> int:
+    def largestRectangleArea(self, heights) -> int:
         stack = [-1]
         area = 0
         heights.append(0)
@@ -33,7 +33,13 @@ class Solution:
             while heights[i] < heights[stack[-1]]:
                 h = heights[stack.pop()]
                 area = max(area, h * (i - stack[-1] - 1))
+                print("h: ", h, "   Area: ", area)
             stack.append(i)
         heights.pop()
 
         return area
+
+
+heights = [2, 1, 5, 6, 2, 3]
+sl = Solution()
+print(sl.largestRectangleArea(heights))
