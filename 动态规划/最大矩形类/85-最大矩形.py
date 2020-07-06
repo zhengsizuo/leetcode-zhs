@@ -54,6 +54,35 @@ class Solution:
         return res
 
 
+""""更普适的动态规划法"""
+
+
+class Solution:
+    def maximalRectangle(self, matrix) -> int:
+        if not matrix: return 0
+
+        res = 0
+        m = len(matrix)
+        n = len(matrix[0])
+        dp = [[0] * n for _ in range(m)]
+
+        for i in range(m):
+            for j in range(n):
+                if matrix[i][j] == "0":
+                    continue
+                else:
+                    dp[i][j] = dp[i][j - 1] + 1 if j > 0 else 1
+                    w = float('inf')
+                    for k in range(i, -1, -1):
+                        h = i - k + 1
+                        w = min(w, dp[k][j])
+                        res = max(res, w * h)
+                        # print("k: %d \t j:%d \t ans: %d \t " % (k, j, res))
+                        if w == 0:
+                            break
+
+        return res
+
 matrix = [
   ["1","0","1","0","0"],
   ["1","0","1","1","1"],

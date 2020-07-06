@@ -1,2 +1,7 @@
 # leetcode-zhs
-Practicing code in LeetCode
+LeetCode上的代码练习.   
+
+## 动态规划
+
+
+
