@@ -50,6 +50,47 @@ class Solution(object):
                     mark[cur_i][cur_j] = 0
         return False
 
+
+"""关键在于标记数组passed并且回溯"""
+direct = [(-1, 0), (1, 0), (0, -1), (0, 1)]  # 上下左右
+
+
+class Solution:
+    def exist(self, board, word: str) -> bool:
+        m = len(board)
+        n = len(board[0])
+        passed = [[False] * n for _ in range(m)]
+
+        def search(board, word, i, j, passed):
+            if not word:
+                return True
+
+            for d in direct:
+                next_i = i + d[0]
+                next_j = j + d[1]
+                if 0 <= next_i < m and 0 <= next_j < n and board[next_i][next_j] == word[0]:
+                    if passed[next_i][next_j]:
+                        continue
+
+                    passed[next_i][next_j] = True
+                    if search(board, word[1:], next_i, next_j, passed):
+                        return True
+                    else:
+                        passed[next_i][next_j] = False
+            return False
+
+        for i in range(m):
+            for j in range(n):
+                if board[i][j] == word[0]:
+                    passed[i][j] = True
+                    # print(i, j)
+                    if search(board, word[1:], i, j, passed):
+                        return True
+                    else:
+                        passed[i][j] = False  # 撤销选择
+
+        return False
+
 board =[['A','B','C','E'], ['S','F','C','S'], ['A','D','E','E']]
 # word = 'ABCCED'
 word = 'SEE'

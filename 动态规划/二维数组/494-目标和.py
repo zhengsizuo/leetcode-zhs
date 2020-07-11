@@ -8,7 +8,7 @@ class Solution:
 
 
 
-"""带记忆优化的DFS"""
+"""也可以理解为一道0-1背包的题"""
 nums = [1, 1, 1, 1, 1]
 S = 3
 sl = Solution()
