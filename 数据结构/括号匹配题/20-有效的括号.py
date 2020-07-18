@@ -23,6 +23,24 @@ class Solution(object):
         
         return not stack
 
-string = "()"
+"""更简洁的写法"""
+class Solution:
+    def isValid(self, s: str) -> bool:
+        stack = []  #存储括号的栈
+        brackets_dict = {')':'(', ']':'[','}':'{'}
+
+        for c in s:
+            if c in brackets_dict.keys():
+                top = stack.pop() if stack else '#'  # 防止stack为空调用pop()报错
+                if top != brackets_dict[c]:
+                    return False
+
+            else:
+                stack.append(c)
+
+        return not stack
+
+
+string = "()[]{}"
 solution = Solution()
 print(solution.isValid(string))
