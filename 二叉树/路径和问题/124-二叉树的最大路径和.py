@@ -9,7 +9,7 @@ class Solution:
     def __init__(self):
         self.maxSum = -float('inf')
 
-    def maxPathSum(self, root: TreeNode) -> int:
+    def maxPathSum(self, root) -> int:
         def maxGain(root):
             if not root:
                 return 0

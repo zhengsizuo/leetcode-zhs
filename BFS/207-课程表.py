@@ -34,3 +34,33 @@ class Solution:
 
 
 """深度优先"""
+
+
+class Solution:
+    def canFinish(self, numCourses: int, prerequisites: List[List[int]]) -> bool:
+        indgrees = dict()  # 入度表
+        directed_graph = dict()
+        for i in range(numCourses):
+            indgrees.setdefault(i, 0)
+            directed_graph.setdefault(i, [])
+
+        for edge in prerequisites:
+            indgrees[edge[1]] += 1
+            directed_graph[edge[0]].append(edge[1])
+
+        def dfs(node, path=[]):
+            if node in path:
+                return False
+            path.append(node)
+            if not directed_graph[node]:
+                ret_list.append(path[::-1])
+                return
+
+            for next_node in directed_graph[node]:
+                # print(path)
+                dfs(next_node, path)
+                path.remove(next_node)  # 撤销选择
+
+        for i in range(numCourses):
+            if indgrees[i] == 0:
+                dfs(i, [])

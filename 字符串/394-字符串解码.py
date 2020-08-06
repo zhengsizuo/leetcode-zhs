@@ -46,18 +46,25 @@ class Solution:
 """辅助栈"""
 class Solution:
     def decodeString(self, s: str) -> str:
-        stack, res, multi = [], "", 0
+        # 栈同时记录（重复次数，数字前的字符串）
+        res = ''  # 实时记录当前可以提取出来的字符串
+        stack = []
+        cur_num = 0
         for c in s:
             if c == '[':
-                stack.append([multi, res])
-                res, multi = "", 0
+                # 入栈
+                stack.append([cur_num, res])
+                cur_num, res = 0, ''
             elif c == ']':
-                cur_multi, last_res = stack.pop()
-                res = last_res + cur_multi * res
+                # 出栈
+                last_num, last_res = stack.pop()
+                res = last_res + last_num * res
             elif '0' <= c <= '9':
-                multi = multi * 10 + int(c)
+                cur_num = 10*cur_num + int(c)
+
             else:
                 res += c
+
         return res
 
 
