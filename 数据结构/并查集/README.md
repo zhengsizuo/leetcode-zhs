@@ -1,5 +1,6 @@
 # 并查集
 并查集的关键在于定义两个API函数：连通任意两个节点的union函数和查找节点的根节点函数find  
+主要用于解决图论中的动态连通性问题，“连通”具有三个含义：自反性、对称性、传递性  
 ## C++ API
 参考[laluladong公众号](https://labuladong.gitbook.io/algo/gao-pin-mian-shi-xi-lie/unionfind-suan-fa-xiang-jie)  
 ```C++
@@ -76,5 +77,7 @@ class UF:
             return x
         return self.find(self.parent[x])
         
-            
+    def connected(self, p, q):
+        # 判断两个节点是否连通 
+        return self.find(p) == self.find(q)       
 ```

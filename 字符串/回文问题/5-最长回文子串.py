@@ -1,37 +1,3 @@
-"""暴力法"""
-class Solution(object):
-    def isPalindrome(self, s):
-        # 判断某字符串片段是否为回文字符串，返回bool
-        n = len(s)
-        for i in range(n/2):
-            if s[i]!=s[n-i-1]:
-                return False
-        
-        return True
-    
-    def longestPalindrome(self, s):
-        """
-        :type s: str
-        :rtype: str
-        """
-        if len(s)==0 or len(s)==1:
-            return s
-
-        ret_s = str()
-        maxLen = 0
-        # 枚举所有子串，保存最长的回文串
-        for i in range(len(s)-1):
-            for j in range(i, len(s)):
-                if self.isPalindrome(s[i:j]) and (j-i)>maxLen:
-                    maxLen = j-i
-                    ret_s = s[i:j]
-                if j==(len(s)-1):
-                    if self.isPalindrome(s[i:]) and (j-i+1)>maxLen:
-                        maxLen = j-i+1
-                        ret_s = s[i:]
-
-        return ret_s
-
 """双指针中心扩展法"""
 class Solution(object):
     def expandPalindrome(self, s, l, r):
@@ -61,6 +27,39 @@ class Solution(object):
         
         return res
 
+
+"""动态规划法"""
+class Solution:
+    def longestPalindrome(self, s: str) -> str:
+        if not s: return ''
+
+        dp = [[False] * len(s) for _ in range(len(s))]
+        # 初始化base case，对角线即单个字符的时候为True
+        for i in range(len(s)):
+            dp[i][i] = True
+
+        for i in range(len(s)-1, -1, -1):
+            for j in range(i + 1, len(s)):
+                if s[i] == s[j]:
+                    if j - i == 1:
+                        # 特殊情况
+                        dp[i][j] = True
+                    else:
+                        dp[i][j] = dp[i + 1][j - 1]
+
+        max_len = 0
+        pos =[0, 0]
+        for i in range(len(dp)):
+            for j in range(i, len(dp[0])):
+                if dp[i][j]:
+                    if j-i > max_len:
+                        max_len = j-i
+                        pos[0], pos[1] = i, j
+
+        return s[pos[0]:pos[1]+1]
+
+
 input_str = 'babad'
+input_str = 'ccc'
 sl = Solution()
 print(sl.longestPalindrome(input_str))
