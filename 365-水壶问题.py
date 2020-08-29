@@ -1,66 +1,48 @@
+"""改用栈，保证每种状态只被搜索一次"""
 class Solution:
     def canMeasureWater(self, x: int, y: int, z: int) -> bool:
+        stack = [(0, 0)] # 初始化两个空壶
+        seen = set()
 
-        def dfs(state, pre_a, path):
-            print(state)
-            path.append(state[:])
-            if sum(state) == z or z in state:
+        while stack:
+            remain_x, remain_y = stack.pop()  # 栈做DFS，所以FILO
+            if remain_x==z or remain_y==z or remain_x+remain_y==z:
                 return True
+            if (remain_x, remain_y) in seen:
+                continue
 
-            # 做选择
-            for i in range(6):
-                s = state.copy()
-                if i == pre_a: continue
-                if state == [x, y] and (i==0 or i==1):
-                    # 如果两个水壶都满了，不必再装
-                    continue
-                if i == 0:
-                    state[0] = x  # 装满1水壶
-                    if state not in path:
-                        dfs(state, i, path)
-                        state = s
-                if i == 1:
-                    state[1] = y  # 装满2水壶
-                    if state not in path:
-                        dfs(state, i, path)
-                        state = s
-                if i == 2:
-                    state[0] = 0  # 倒掉1水壶
-                    if state not in path:
-                        dfs(state, i, path)
-                        state = s
-                if i == 3:
-                    state[1] = 0  # 倒掉2水壶
-                    if state not in path:
-                        dfs(state, i, path)
-                        state = s
-                if i == 4:
-                    # 1倒向2
-                    cur_sum = state[1] + state[0]
-                    if cur_sum > y:
-                        state[1] = y
-                        state[0] = cur_sum - y
-                    else:
-                        state[1] = cur_sum
-                        state[0] = 0
-                    if state not in path:
-                        dfs(state, i, path)
-                        state = s
-                if i == 5:
-                    # 2倒向1
-                    cur_sum = state[0] + state[1]
-                    if cur_sum > x:
-                        state[0] = x
-                        state[1] = cur_sum - x
-                    else:
-                        state[0] = cur_sum
-                        state[1] = 0
-                    if state not in path:
-                        dfs(state, i, path)
-                        state = s
+            seen.add((remain_x, remain_y))
+            stack.append((0, remain_y))  # 倒空容量x的水壶
+            stack.append((remain_x, 0))  # 倒空容量y的水壶
+            stack.append((x, remain_y))  # 装满容量x的水壶
+            stack.append((remain_x, y))  # 装满容量y的水壶
+            remain = remain_x + remain_y
+            if remain > y:
+                stack.append((remain_x - (y-remain_y), y))  # 把x水壶的水倒向y
+            else:
+                stack.append((0, remain))
+            if remain > x:
+                # 把y水壶的水倒向x
+                stack.append((x, remain_y-(x-remain_x)))
+            else:
+                stack.append((remain, 0))
 
-        state = [3, 0]
-        return dfs(state, 0, [])
+        return False
+
+
+"""数学解法，判断z是否是x和y的最大公约数的倍数"""
+# https://leetcode-cn.com/problems/water-and-jug-problem/solution/shui-hu-wen-ti-by-leetcode-solution/
+
+
+import math
+class Solution:
+    def canMeasureWater(self, x: int, y: int, z: int) -> bool:
+        if x + y < z:
+            return False
+        if x == 0 or y == 0:
+            return z == 0 or x + y == z
+        return z % math.gcd(x, y) == 0
+
 
 sl = Solution()
 x, y, z = 3, 5, 4

@@ -27,5 +27,6 @@ class Solution:
         backtrack()
         return result
 
+
 sl = Solution()
 print(sl.generateParenthesis(n=3))
