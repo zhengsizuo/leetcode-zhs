@@ -5,28 +5,52 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9e89925c-43dc-41b7-b2eb-f1367e3296fb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/59-螺旋矩阵ii.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/二分查找/410-分割数组的最大值.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/二分查找/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/二叉树/103-锯齿状层序遍历.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/二叉树/109-有序数组转化为二叉搜索树.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/企业题/shopee/1-办公室.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/企业题/shopee/3-通配符.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/企业题/shopee/4-物流中转站.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/动态规划/二维数组/44-通配符匹配.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/双指针/88-合并两个有序数组.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/回溯/36-有效的数独.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/字符串/28-实现strStr().py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/数位计算/29-两数相除.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/数据结构/单调栈/496-下一个更大的数组.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/数据结构/单调栈/509-下一个更大的元素ii.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/66-加1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/73-矩阵置零.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/二分查找/162-寻找峰值.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/二分查找/875-爱吃香蕉的可可.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/二分查找/数位计算/29-两数相除.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/二分查找/数位计算/50-x的n次方.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/二分查找/数位计算/69-x的平方根.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/二叉树/二叉搜索树/230-二叉搜索树第k小的树.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/企业题/字节跳动周赛/2018-算法/2-数组区间最大值.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/动态规划/01背包.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/动态规划/最大矩形类/最大子矩阵和.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/动态规划/背包问题/518-零钱兑换ii.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/动态规划/背包问题/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/动态规划/贪心/435-无重叠区间.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/动态规划/贪心/452-用最少的箭引爆气球.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/回溯/679-24点游戏.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/排序/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/排序/最小k个数.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/数据结构/150-逆波兰表达式.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/矩阵之字形打印.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/338-比特位计数.py" beforeDir="false" afterPath="$PROJECT_DIR$/数位计算/338-比特位计数.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/365-水壶问题.py" beforeDir="false" afterPath="$PROJECT_DIR$/365-水壶问题.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/50-x的n次方.py" beforeDir="false" afterPath="$PROJECT_DIR$/数位计算/50-x的n次方.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/54-螺旋矩阵.py" beforeDir="false" afterPath="$PROJECT_DIR$/54-螺旋矩阵.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/回溯/17-phonenumer.py" beforeDir="false" afterPath="$PROJECT_DIR$/回溯/17-电话号码的字母组合.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/回溯/22-括号生成.py" beforeDir="false" afterPath="$PROJECT_DIR$/回溯/22-括号生成.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/365-水壶问题.py" beforeDir="false" afterPath="$PROJECT_DIR$/回溯/365-水壶问题.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/二分查找/410-分割数组的最大值.py" beforeDir="false" afterPath="$PROJECT_DIR$/二分查找/410-分割数组的最大值.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/二分查找/56-合并区间.py" beforeDir="false" afterPath="$PROJECT_DIR$/排序/56-合并区间.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/二分查找/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/二分查找/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/二叉树/109-有序数组转化为二叉搜索树.py" beforeDir="false" afterPath="$PROJECT_DIR$/二叉树/二叉搜索树/109-有序数组转化为二叉搜索树.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/二叉树/538-把二叉搜索树转化为累加树.py" beforeDir="false" afterPath="$PROJECT_DIR$/二叉树/二叉搜索树/538-把二叉搜索树转化为累加树.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/二叉树/96-不同的二叉搜索树.py" beforeDir="false" afterPath="$PROJECT_DIR$/二叉树/二叉搜索树/96-不同的二叉搜索树.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/二叉树/98-验证二叉搜索树.py" beforeDir="false" afterPath="$PROJECT_DIR$/二叉树/二叉搜索树/98-验证二叉搜索树.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/企业题/shopee/3-通配符.py" beforeDir="false" afterPath="$PROJECT_DIR$/企业题/shopee/3-通配符.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/企业题/字节跳动周赛/5454-统计全1的子矩形.py" beforeDir="false" afterPath="$PROJECT_DIR$/企业题/字节跳动周赛/5454-统计全1的子矩形.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/企业题/字节跳动周赛/5455-最多 K 次交换相邻数位后得到的最小整数.py" beforeDir="false" afterPath="$PROJECT_DIR$/企业题/字节跳动周赛/5455-最多 K 次交换相邻数位后得到的最小整数.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/动态规划/312-戳气球.py" beforeDir="false" afterPath="$PROJECT_DIR$/动态规划/312-戳气球.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/动态规划/322-零钱兑换.py" beforeDir="false" afterPath="$PROJECT_DIR$/动态规划/背包问题/322-零钱兑换.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/动态规划/416-分割等和子集.py" beforeDir="false" afterPath="$PROJECT_DIR$/动态规划/背包问题/416-分割等和子集.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/动态规划/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/动态规划/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/动态规划/子序列问题/53-最大子序和.py" beforeDir="false" afterPath="$PROJECT_DIR$/动态规划/子序列问题/53-最大子序和.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/动态规划/最大矩形类/85-最大矩形.py" beforeDir="false" afterPath="$PROJECT_DIR$/动态规划/最大矩形类/85-最大矩形.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/排序/215-第k个最大的数.py" beforeDir="false" afterPath="$PROJECT_DIR$/排序/215-第k个最大的数.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/排序/堆排序.py" beforeDir="false" afterPath="$PROJECT_DIR$/排序/堆排序.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/数位计算/29-两数相除.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/数位计算/338-比特位计数.py" beforeDir="false" afterPath="$PROJECT_DIR$/二分查找/数位计算/338-比特位计数.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/数位计算/50-x的n次方.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/数据结构/单调栈/84-柱状图中的最大矩形.py" beforeDir="false" afterPath="$PROJECT_DIR$/数据结构/单调栈/84-柱状图中的最大矩形.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/数组/31-下一个排列.py" beforeDir="false" afterPath="$PROJECT_DIR$/数组/31-下一个排列.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/计算机基础博客.md" beforeDir="false" afterPath="$PROJECT_DIR$/计算机基础博客.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -39,13 +63,14 @@
     <session id="-1955888293">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="27" />
-          <entry key="project.open.time.0" value="9" />
+          <entry key="project.closed" value="31" />
+          <entry key="project.open.time.0" value="12" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.184" value="1" />
           <entry key="project.open.time.2" value="4" />
           <entry key="project.open.time.21" value="3" />
+          <entry key="project.open.time.22" value="1" />
           <entry key="project.open.time.23" value="1" />
           <entry key="project.open.time.27" value="1" />
           <entry key="project.open.time.40" value="1" />
@@ -53,22 +78,22 @@
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.8" value="2" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="29" />
+          <entry key="project.opened" value="33" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="IPNB" value="1" />
           <entry key="Image" value="2" />
-          <entry key="Markdown" value="34" />
-          <entry key="Python" value="344" />
+          <entry key="Markdown" value="42" />
+          <entry key="Python" value="386" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Markdown" value="2293" />
+          <entry key="Markdown" value="2916" />
           <entry key="PLAIN_TEXT" value="146" />
-          <entry key="Python" value="27457" />
+          <entry key="Python" value="30467" />
         </counts>
       </usages-collector>
     </session>
@@ -76,20 +101,11 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/企业题/shopee/1-办公室.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="703">
-              <caret line="37" column="21" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/二分查找/README.md">
+        <entry file="file://$PROJECT_DIR$/计算机基础博客.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="323">
-                <caret line="17" column="3" lean-forward="true" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
+              <first_editor relative-caret-position="57">
+                <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
               </first_editor>
               <second_editor />
             </state>
@@ -97,59 +113,25 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/二分查找/33-搜索排序数组.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-392" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/二分查找/410-分割数组的最大值.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="25" selection-start-line="25" selection-start-column="2" selection-end-line="28" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/企业题/shopee/3-通配符.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/字符串/滑动窗口/README.md">
+        <entry file="file://$PROJECT_DIR$/动态规划/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SECOND">
-              <first_editor />
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="248">
+                <caret line="20" column="38" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
+              </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/字符串/滑动窗口/438-找字符串字母异位词.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-202" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/字符串/滑动窗口/3-最长无重复子串.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-228" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/字符串/28-实现strStr().py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="349">
-              <caret line="20" selection-start-line="20" selection-end-line="20" />
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/排序/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="38">
+                <caret line="2" column="64" selection-start-line="2" selection-start-column="64" selection-end-line="2" selection-end-column="64" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -177,37 +159,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/企业题/网易算法/4-积木.py" />
-        <option value="$PROJECT_DIR$/企业题/网易算法/1-序列交换.py" />
-        <option value="$PROJECT_DIR$/排序/offer-51逆序对的数目.py" />
-        <option value="$PROJECT_DIR$/排序/4-寻找正序数组中的中位数.py" />
-        <option value="$PROJECT_DIR$/数组/283-移动零.py" />
-        <option value="$PROJECT_DIR$/字符串/回文问题/647-回文子串.py" />
-        <option value="$PROJECT_DIR$/字符串/回文问题/131-分割回文串.py" />
-        <option value="$PROJECT_DIR$/字符串/回文问题/132-分割回文串ii.py" />
-        <option value="$PROJECT_DIR$/字符串/回文问题/5-最长回文子串.py" />
-        <option value="$PROJECT_DIR$/数据结构/并查集/README.md" />
-        <option value="$PROJECT_DIR$/27-单词接龙.py" />
-        <option value="$PROJECT_DIR$/13-罗马数字转换.py" />
-        <option value="$PROJECT_DIR$/BFS/README.md" />
-        <option value="$PROJECT_DIR$/BFS/752-打开转盘锁.py" />
-        <option value="$PROJECT_DIR$/剑指offer/61-扑克中的顺子.py" />
-        <option value="$PROJECT_DIR$/剑指offer/37-礼物最大价值.py" />
-        <option value="$PROJECT_DIR$/动态规划/756-最小花费爬楼梯.py" />
-        <option value="$PROJECT_DIR$/动态规划/70-爬楼梯.py" />
-        <option value="$PROJECT_DIR$/动态规划/股票问题/121-买卖股票最佳时机i.py" />
-        <option value="$PROJECT_DIR$/动态规划/子序列问题/1143-最长公共子序列.py" />
-        <option value="$PROJECT_DIR$/动态规划/子序列问题/718-最长重复子数组.py" />
-        <option value="$PROJECT_DIR$/动态规划/子序列问题/300-最长递增序列.py" />
-        <option value="$PROJECT_DIR$/动态规划/子序列问题/435-无重叠子区间.py" />
-        <option value="$PROJECT_DIR$/企业题/美团-2020/1-外卖小哥的保温箱.py" />
-        <option value="$PROJECT_DIR$/企业题/美团-2020/2-最长公共前缀.py" />
-        <option value="$PROJECT_DIR$/企业题/商汤-2018/1-解码.py" />
-        <option value="$PROJECT_DIR$/企业题/商汤-2018/3-分割后处理.py" />
-        <option value="$PROJECT_DIR$/字符串/91-解码方法.py" />
-        <option value="$PROJECT_DIR$/50-x的n次方.py" />
-        <option value="$PROJECT_DIR$/排序/堆排序.py" />
-        <option value="$PROJECT_DIR$/54-螺旋矩阵.py" />
         <option value="$PROJECT_DIR$/59-螺旋矩阵ii.py" />
         <option value="$PROJECT_DIR$/数据结构/单调栈/496-下一个更大的数组.py" />
         <option value="$PROJECT_DIR$/数据结构/单调栈/509-下一个更大的元素ii.py" />
@@ -216,26 +167,57 @@
         <option value="$PROJECT_DIR$/回溯/17-电话号码的字母组合.py" />
         <option value="$PROJECT_DIR$/回溯/22-括号生成.py" />
         <option value="$PROJECT_DIR$/字符串/28-实现strStr().py" />
-        <option value="$PROJECT_DIR$/计算机基础博客.md" />
-        <option value="$PROJECT_DIR$/数位计算/29-两数相除.py" />
         <option value="$PROJECT_DIR$/双指针/88-合并两个有序数组.py" />
         <option value="$PROJECT_DIR$/二叉树/109-有序数组转化为二叉搜索树.py" />
         <option value="$PROJECT_DIR$/二叉树/103-锯齿状层序遍历.py" />
-        <option value="$PROJECT_DIR$/企业题/shopee/3-通配符.py" />
         <option value="$PROJECT_DIR$/企业题/shopee/4-物流中转站.py" />
         <option value="$PROJECT_DIR$/企业题/shopee/1-办公室.py" />
         <option value="$PROJECT_DIR$/动态规划/二维数组/44-通配符匹配.py" />
         <option value="$PROJECT_DIR$/二分查找/README.md.py" />
+        <option value="$PROJECT_DIR$/企业题/shopee/3-通配符.py" />
+        <option value="$PROJECT_DIR$/企业题/字节跳动周赛/5455-最多 K 次交换相邻数位后得到的最小整数.py" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/数位计算/50-x的n次方.py" />
+        <option value="$PROJECT_DIR$/数位计算/69-x的平方根.py" />
+        <option value="$PROJECT_DIR$/数位计算/29-两数相除.py" />
+        <option value="$PROJECT_DIR$/数组/31-下一个排列.py" />
+        <option value="$PROJECT_DIR$/73-矩阵置零.py" />
+        <option value="$PROJECT_DIR$/二分查找/数位计算/69-x的平方根.py" />
+        <option value="$PROJECT_DIR$/二分查找/162-寻找峰值.py" />
         <option value="$PROJECT_DIR$/二分查找/README.md" />
+        <option value="$PROJECT_DIR$/二分查找/875-爱吃香蕉的可可.py" />
         <option value="$PROJECT_DIR$/二分查找/410-分割数组的最大值.py" />
+        <option value="$PROJECT_DIR$/企业题/字节跳动周赛/2018-算法/2-数组区间最大值.py" />
+        <option value="$PROJECT_DIR$/数据结构/150-逆波兰表达式.py" />
+        <option value="$PROJECT_DIR$/数据结构/单调栈/84-柱状图中的最大矩形.py" />
+        <option value="$PROJECT_DIR$/动态规划/最大矩形类/85-最大矩形.py" />
+        <option value="$PROJECT_DIR$/企业题/字节跳动周赛/5454-统计全1的子矩形.py" />
+        <option value="$PROJECT_DIR$/动态规划/最大矩形类/最大子矩阵和.py" />
+        <option value="$PROJECT_DIR$/动态规划/子序列问题/53-最大子序和.py" />
+        <option value="$PROJECT_DIR$/二叉树/543-二叉树的直径.py" />
+        <option value="$PROJECT_DIR$/二叉树/二叉搜索树/230-二叉搜索树第k小的树.py" />
+        <option value="$PROJECT_DIR$/66-加1.py" />
+        <option value="$PROJECT_DIR$/回溯/679-24点游戏.py" />
+        <option value="$PROJECT_DIR$/排序/堆排序.py" />
+        <option value="$PROJECT_DIR$/排序/最小k个数.py" />
+        <option value="$PROJECT_DIR$/排序/README.md" />
+        <option value="$PROJECT_DIR$/计算机基础博客.md" />
+        <option value="$PROJECT_DIR$/排序/215-第k个最大的数.py" />
+        <option value="$PROJECT_DIR$/矩阵之字形打印.py" />
+        <option value="$PROJECT_DIR$/动态规划/README.md" />
+        <option value="$PROJECT_DIR$/动态规划/01背包.py" />
+        <option value="$PROJECT_DIR$/动态规划/背包问题/518-零钱兑换ii.py" />
+        <option value="$PROJECT_DIR$/动态规划/贪心/435-无重叠区间.py" />
+        <option value="$PROJECT_DIR$/动态规划/贪心/452-用最少的箭引爆气球.py" />
+        <option value="$PROJECT_DIR$/动态规划/312-戳气球.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="953" />
-    <option name="y" value="282" />
-    <option name="width" value="974" />
-    <option name="height" value="758" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-249" />
+    <option name="y" value="59" />
+    <option name="width" value="1269" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -245,6 +227,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -260,43 +243,42 @@
             <path>
               <item name="leetcode-zhs" type="b2602c69:ProjectViewProjectNode" />
               <item name="leetcode-zhs" type="462c0819:PsiDirectoryNode" />
-              <item name="企业题" type="462c0819:PsiDirectoryNode" />
+              <item name="动态规划" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="leetcode-zhs" type="b2602c69:ProjectViewProjectNode" />
               <item name="leetcode-zhs" type="462c0819:PsiDirectoryNode" />
-              <item name="企业题" type="462c0819:PsiDirectoryNode" />
-              <item name="shopee" type="462c0819:PsiDirectoryNode" />
+              <item name="动态规划" type="462c0819:PsiDirectoryNode" />
+              <item name="子序列问题" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="leetcode-zhs" type="b2602c69:ProjectViewProjectNode" />
               <item name="leetcode-zhs" type="462c0819:PsiDirectoryNode" />
-              <item name="字符串" type="462c0819:PsiDirectoryNode" />
+              <item name="排序" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Data_Analysis" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\GitHub\leetcode-zhs\动态规划\背包问题" />
+      <recent name="F:\GitHub\leetcode-zhs\动态规划" />
+      <recent name="F:\GitHub\leetcode-zhs\二叉树\二叉搜索树" />
+      <recent name="F:\GitHub\leetcode-zhs\回溯" />
+      <recent name="F:\GitHub\leetcode-zhs\排序" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\GitHub\leetcode-zhs\排序" />
       <recent name="F:\GitHub\leetcode-zhs\BFS" />
       <recent name="F:\GitHub\leetcode-zhs\字符串\回文问题" />
       <recent name="F:\GitHub\leetcode-zhs\动态规划\二维数组" />
       <recent name="F:\GitHub\leetcode-zhs\数据结构\括号匹配题" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\GitHub\leetcode-zhs\数位计算" />
-      <recent name="F:\GitHub\leetcode-zhs\回溯\岛屿问题" />
-      <recent name="F:\GitHub\leetcode-zhs\动态规划\贪心" />
-      <recent name="F:\GitHub\leetcode-zhs\剑指offer" />
-      <recent name="F:\GitHub\leetcode-zhs\BFS" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -311,8 +293,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.44-通配符匹配">
-    <configuration name="1-办公室" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.312-戳气球">
+    <configuration name="堆排序" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="leetcode-zhs" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -320,11 +302,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/企业题/shopee" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/排序" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/企业题/shopee/1-办公室.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/排序/堆排序.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -333,7 +315,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="28-实现strStr()" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="01背包" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="leetcode-zhs" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -341,11 +323,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/字符串" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/动态规划" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/字符串/28-实现strStr().py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/动态规划/01背包.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -354,7 +336,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="29-两数相除" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="矩阵之字形打印" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="leetcode-zhs" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -362,11 +344,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/数位计算" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/数位计算/29-两数相除.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/矩阵之字形打印.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -375,7 +357,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="4-物流中转站" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="312-戳气球" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="leetcode-zhs" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -383,11 +365,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/企业题/shopee" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/动态规划" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/企业题/shopee/4-物流中转站.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/动态规划/312-戳气球.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -396,7 +378,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="44-通配符匹配" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="679-24点游戏" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="leetcode-zhs" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -404,11 +386,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/动态规划/二维数组" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/回溯" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/动态规划/二维数组/44-通配符匹配.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/回溯/679-24点游戏.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -418,19 +400,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.28-实现strStr()" />
-      <item itemvalue="Python.29-两数相除" />
-      <item itemvalue="Python.1-办公室" />
-      <item itemvalue="Python.4-物流中转站" />
-      <item itemvalue="Python.44-通配符匹配" />
+      <item itemvalue="Python.679-24点游戏" />
+      <item itemvalue="Python.堆排序" />
+      <item itemvalue="Python.矩阵之字形打印" />
+      <item itemvalue="Python.01背包" />
+      <item itemvalue="Python.312-戳气球" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.44-通配符匹配" />
-        <item itemvalue="Python.1-办公室" />
-        <item itemvalue="Python.4-物流中转站" />
-        <item itemvalue="Python.29-两数相除" />
-        <item itemvalue="Python.28-实现strStr()" />
+        <item itemvalue="Python.312-戳气球" />
+        <item itemvalue="Python.01背包" />
+        <item itemvalue="Python.矩阵之字形打印" />
+        <item itemvalue="Python.堆排序" />
+        <item itemvalue="Python.679-24点游戏" />
       </list>
     </recent_temporary>
   </component>
@@ -472,15 +454,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22760801" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.257329" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.26818675" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -522,149 +503,243 @@
     <option name="LAST_COMMIT_MESSAGE" value="make some modification" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/企业题/商汤-2018/1-解码.py">
+    <entry file="file://$PROJECT_DIR$/企业题/字节跳动周赛/5455-最多 K 次交换相邻数位后得到的最小整数.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="482">
-          <caret line="36" column="12" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/二叉树/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/动态规划/子序列问题/300-最长递增序列.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="30" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/回溯/岛屿问题/130-被围绕的区域.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/字符串/91-解码方法.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="569">
-          <caret line="47" column="21" selection-start-line="47" selection-start-column="21" selection-end-line="47" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/数组/347-前k个高频元素.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/双指针/142-环形链表2.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/排序/归并排序.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/企业题/商汤-2018/3-分割后处理.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="58" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/排序/快速排序.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/数位计算/50-x的n次方.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/数据结构/单调栈/739-每日温度.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-342" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/数据结构/单调栈/496-下一个更大的数组.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="8" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/数据结构/单调栈/84-柱状图中的最大矩形.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-228" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/365-水壶问题.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="415">
-          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/数据结构/单调栈/509-下一个更大的元素ii.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/回溯/36-有效的数独.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="41" selection-start-line="41" selection-end-line="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/回溯/79-单词选择.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1083" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/回溯/39-组合总和.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-513" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/回溯/22-括号生成.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
+        <state relative-caret-position="539">
           <caret line="29" selection-start-line="29" selection-end-line="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/回溯/17-电话号码的字母组合.py">
+    <entry file="file://$PROJECT_DIR$/企业题/shopee/3-通配符.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="492">
-          <caret line="42" column="43" selection-start-line="42" selection-start-column="43" selection-end-line="42" selection-end-column="43" />
+        <state>
+          <caret selection-start-column="2" selection-end-line="7" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/59-螺旋矩阵ii.py">
+    <entry file="file://$PROJECT_DIR$/企业题/shopee/1-办公室.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+        <state relative-caret-position="703">
+          <caret line="37" column="21" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/54-螺旋矩阵.py">
+    <entry file="file://$PROJECT_DIR$/二分查找/数位计算/50-x的n次方.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/73-矩阵置零.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="37" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数组/31-下一个排列.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/二分查找/33-搜索排序数组.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-392" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/二分查找/162-寻找峰值.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/排序/56-合并区间.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/二分查找/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="399">
+            <caret line="21" column="36" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/二分查找/875-爱吃香蕉的可可.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="627">
+          <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/二分查找/数位计算/29-两数相除.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/二分查找/410-分割数组的最大值.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/二分查找/数位计算/69-x的平方根.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="25" column="23" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/字符串/滑动窗口/438-找字符串字母异位词.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/621-任务调度器.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/动态规划/最大矩形类/最大子矩阵和.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="722">
+          <caret line="38" column="34" selection-start-line="38" selection-start-column="34" selection-end-line="38" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/二分查找/34-搜索左右区间.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数据结构/单调栈/84-柱状图中的最大矩形.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="627">
+          <caret line="33" column="23" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/企业题/字节跳动周赛/5454-统计全1的子矩形.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="24" column="34" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/动态规划/最大矩形类/85-最大矩形.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1064">
+          <caret line="56" column="69" selection-start-line="56" selection-start-column="69" selection-end-line="56" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/动态规划/最大矩形类/211-最大正方形.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/动态规划/子序列问题/53-最大子序和.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="30" lean-forward="true" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/二叉树/二叉搜索树/538-把二叉搜索树转化为累加树.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-228" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/回溯/46-全排列.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-114" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/二叉树/二叉搜索树/96-不同的二叉搜索树.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/二叉树/二叉搜索树/98-验证二叉搜索树.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="18" lean-forward="true" selection-start-line="7" selection-end-line="7" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/二叉树/二叉搜索树/230-二叉搜索树第k小的树.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="469">
+          <caret line="68" column="36" lean-forward="true" selection-start-line="68" selection-start-column="36" selection-end-line="68" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/二叉树/二叉搜索树/109-有序数组转化为二叉搜索树.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" selection-start-line="1" selection-end-line="5" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/66-加1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="50" selection-start-line="12" selection-start-column="50" selection-end-line="12" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/回溯/679-24点游戏.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="23" column="60" lean-forward="true" selection-start-line="23" selection-start-column="60" selection-end-line="23" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/排序/最小k个数.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="42" column="14" selection-start-line="42" selection-start-column="3" selection-end-line="42" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/排序/215-第k个最大的数.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="26" lean-forward="true" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/二叉树/543-二叉树的直径.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/企业题/字节跳动周赛/2018-算法/2-数组区间最大值.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数据结构/150-逆波兰表达式.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="513">
-          <caret line="51" column="35" selection-start-line="45" selection-start-column="12" selection-end-line="51" selection-end-column="35" />
+          <caret line="27" column="28" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/排序/堆排序.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="43" column="14" selection-start-line="43" selection-start-column="14" selection-end-line="43" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/数位计算/338-比特位计数.py">
+    <entry file="file://$PROJECT_DIR$/回溯/365-水壶问题.py">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/矩阵之字形打印.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="29" column="17" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/动态规划/01背包.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/回溯/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
@@ -674,160 +749,88 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/排序/堆排序.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" selection-start-line="1" selection-end-line="19" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/动态规划/背包问题/322-零钱兑换.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-22" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/动态规划/背包问题/518-零钱兑换ii.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="586">
+          <caret line="45" column="28" selection-start-line="45" selection-start-column="28" selection-end-line="45" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/动态规划/贪心/435-无重叠区间.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/动态规划/贪心/452-用最少的箭引爆气球.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="38" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/动态规划/312-戳气球.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="434">
+          <caret line="115" column="9" selection-start-line="115" selection-start-column="9" selection-end-line="115" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/动态规划/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="248">
+            <caret line="20" column="38" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/动态规划/背包问题/416-分割等和子集.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-421" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/计算机基础博客.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="95">
-            <caret line="5" column="61" lean-forward="true" selection-start-line="5" selection-start-column="61" selection-end-line="5" selection-end-column="61" />
+          <first_editor relative-caret-position="57">
+            <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/数位计算/29-两数相除.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="12" selection-start-column="12" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/二分查找/240-搜索二维矩阵ii.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-69" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/二分查找/34-搜索左右区间.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/二分查找/56-合并区间.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/双指针/88-合并两个有序数组.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="539">
-          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BFS/README.md">
+    <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="380">
-            <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+          <first_editor relative-caret-position="171">
+            <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/二叉树/109-有序数组转化为二叉搜索树.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" selection-start-line="1" selection-end-line="5" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/字符串/28-实现strStr().py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/企业题/shopee/4-物流中转站.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="32" column="18" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/企业题/shopee/3-通配符.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/字符串/滑动窗口/3-最长无重复子串.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-228" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/字符串/滑动窗口/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SECOND">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/字符串/438-找字符串字母异位词.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/动态规划/二维数组/62-不同路径.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-221" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/字符串/滑动窗口/438-找字符串字母异位词.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-202" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/动态规划/二维数组/44-通配符匹配.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="27" selection-start-column="27" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/动态规划/二维数组/10-正则表达式.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="684">
-          <caret line="36" column="23" lean-forward="true" selection-start-line="33" selection-end-line="36" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/二叉树/103-锯齿状层序遍历.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" selection-start-line="2" selection-end-line="6" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BFS/102-二叉树的层序遍历.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-79" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/二分查找/README.md.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/企业题/shopee/1-办公室.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="703">
-          <caret line="37" column="21" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/二分查找/README.md">
+    <entry file="file://$PROJECT_DIR$/排序/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="323">
-            <caret line="17" column="3" lean-forward="true" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
+          <first_editor relative-caret-position="38">
+            <caret line="2" column="64" selection-start-line="2" selection-start-column="64" selection-end-line="2" selection-end-column="64" />
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/二分查找/33-搜索排序数组.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-392" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/二分查找/410-分割数组的最大值.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="25" selection-start-line="25" selection-start-column="2" selection-end-line="28" selection-end-column="36" />
         </state>
       </provider>
     </entry>

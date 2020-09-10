@@ -23,6 +23,7 @@ class Solution:
 
         return dp[-2]
 
+
 """单调递增栈的解法，核心思想是找到左边第一个比i小的和右边第一个比i小的"""
 class Solution:
     def largestRectangleArea(self, heights) -> int:
@@ -30,6 +31,7 @@ class Solution:
         area = 0
         heights.append(0)
         for i in range(len(heights)):
+            print(stack)
             while heights[i] < heights[stack[-1]]:
                 h = heights[stack.pop()]
                 area = max(area, h * (i - stack[-1] - 1))

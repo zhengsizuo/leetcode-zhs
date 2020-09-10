@@ -31,6 +31,7 @@ def build_max_heap(heap):
 def heap_sort(heap):
     # 将根节点取出与最后一位做对调，对前面len-1个节点继续进行堆调整过程。
     build_max_heap(heap)
+    print("建堆后：", heap)
     # 调整后列表的第一个元素就是这个列表中最大的元素，将其与最后一个元素交换，然后将剩余的列表再递归的调整为最大堆
     for i in range(len(heap)-1, -1, -1):
         heap[0], heap[i] = heap[i], heap[0]
@@ -39,6 +40,7 @@ def heap_sort(heap):
 
 if __name__ == '__main__':
     a = [30, 50, 57, 77, 62, 78, 94, 80, 84]
+    a = [4, 6, 8, 5, 9]
     print("排序前：", a)
     heap_sort(a)
     print("排序后：", a)

@@ -1,6 +1,6 @@
 """递归法，自顶向下，超出时间限制"""
 class Solution:
-    def maxCoins(self, nums: List[int]) -> int:
+    def maxCoins(self, nums) -> int:
         def dp(nums):
             # base case
             if len(nums) == 0: return 0
@@ -25,7 +25,7 @@ class Solution:
 
 """加备忘录，依然超出时间限制"""
 class Solution:
-    def maxCoins(self, nums: List[int]) -> int:
+    def maxCoins(self, nums) -> int:
         # 备忘录
         memo = []
         coin_memo = []
@@ -62,7 +62,7 @@ class Solution:
 
 """分治+动态规划（带备忘录）"""
 class Solution:
-    def maxCoins(self, nums: List[int]):
+    def maxCoins(self, nums):
         if not nums:
             return 0
 
@@ -87,3 +87,33 @@ class Solution:
         nums = [1, *nums, 1]  # 增加两侧区间的虚拟气球
         memo = [[0] * len(nums) for _ in range(len(nums))]
         return getMaxCoins(nums, 0, len(nums) - 1, memo)
+
+
+"""用dp数组，注意分析遍历顺序"""
+
+
+class Solution:
+    def maxCoins(self, nums) -> int:
+        if not nums: return 0
+
+        nums = [1, *nums, 1]  # 首尾添加1
+        n = len(nums)
+        dp = [[0] * n for _ in range(n)]  # dp[i][j]表示(i,j)开区间获得的硬币最大数量
+
+        # 遍历顺序是根据base case和状态转移方程推出来的
+        for i in range(n - 2, -1, -1):
+            # i从下到上
+            for j in range(i + 1, n):
+                # j从左到右
+                for k in range(i + 1, j):
+                    dp[i][j] = max(dp[i][j], dp[i][k] + dp[k][j] + nums[i] * nums[k] * nums[j])  # 假设最后戳爆的气球是k
+
+        for d in dp:
+            print(d)
+        return dp[0][n - 1]
+
+
+nums = [3, 1, 5, 8]
+sl = Solution()
+res = sl.maxCoins(nums)
+print(res)

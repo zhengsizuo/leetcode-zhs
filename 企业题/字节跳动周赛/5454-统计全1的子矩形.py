@@ -22,7 +22,7 @@ class Solution:
         return ans
 
 
-mat = [[1, 0, 1], [1, 2, 0], [1, 2, 0]]
+mat = [[1, 0, 1], [1, 1, 0], [1, 1, 0]]
 sl = Solution()
 print(sl.numSubmat(mat))
 # 作者：dz - lee

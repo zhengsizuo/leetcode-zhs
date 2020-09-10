@@ -1,27 +1,3 @@
-"""暴力法，寻找所有坐标组合构成的矩形"""
-# class Solution:
-#     def maximalRectangle(self, matrix) -> int:
-#         m = len(matrix)
-#         n = len(matrix[0])
-#         max_s = 0
-#         for i in range(len(matrix)):
-#             for j in range(len(matrix[0])):
-#                 left_up = (i, j)
-#                 for k_i in range(i, m):
-#                     for k_j in range(j, n):
-#                         right_bottom = (k_i, k_j)
-#                         s = 0
-#                         for item_i in range(i, k_i):
-#                             for item_j in range(j, k_j):
-#                                 if matrix[item_i][item_j] == "1":
-#                                     s += 1
-#
-#                         if s == (k_i-i)*(k_j-j) and s>max_s:
-#                             max_s = s
-#                             print(s)
-#
-#         return max_s
-
 """利用84的解法，求出每层的heights数组"""
 
 class Solution:
@@ -64,7 +40,7 @@ class Solution:
         res = 0
         m = len(matrix)
         n = len(matrix[0])
-        dp = [[0] * n for _ in range(m)]
+        dp = [[0] * n for _ in range(m)]  # 同行前面（包括自身）有多少个1，前缀和
 
         for i in range(m):
             for j in range(n):
@@ -74,10 +50,11 @@ class Solution:
                     dp[i][j] = dp[i][j - 1] + 1 if j > 0 else 1
                     w = float('inf')
                     for k in range(i, -1, -1):
+                        # 回溯前面的行
                         h = i - k + 1
                         w = min(w, dp[k][j])
                         res = max(res, w * h)
-                        # print("k: %d \t j:%d \t ans: %d \t " % (k, j, res))
+                        print("k: %d \t j:%d \t w: %d \t " % (k, j, w))
                         if w == 0:
                             break
 
