@@ -7,7 +7,7 @@ class TreeNode(object):
         self.right = None
 
 root = TreeNode(1)
-root.left = TreeNode(-1)
+root.left = TreeNode(2)
 
 root.right = TreeNode(3)
 root.right.left = TreeNode(4)
@@ -125,6 +125,51 @@ class Codec:
             i += 1
 
         return root
+
+
+"""深度优先，DLR先序遍历"""
+class Codec:
+
+    def serialize(self, root):
+        """Encodes a tree to a single string.
+
+        :type root: TreeNode
+        :rtype: str
+        """
+        res = []
+
+        def dfs(root):
+            if not root:
+                res.append('#')
+                return
+            res.append(str(root.val))
+            dfs(root.left)
+            dfs(root.right)
+
+        dfs(root)
+        return ','.join(res)
+
+    def deserialize(self, data):
+        """Decodes your encoded data to tree.
+
+        :type data: str
+        :rtype: TreeNode
+        """
+        vals = data.split(',')
+        # print(vals)
+        vals = iter(vals)  # 把列表转换为迭代器
+        def dfs():
+            v = next(vals)
+            if v == '#': return
+
+            node = TreeNode(int(v))
+            node.left = dfs()
+            node.right = dfs()
+            return node
+
+        root = dfs()
+        return root
+
 
 
 codec = Codec()

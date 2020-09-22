@@ -27,3 +27,19 @@ class Solution:
             return self.myPow(x, n//2)**2
         else:
             return x*self.myPow(x, n//2)**2
+
+
+"""二进制角度"""
+# 与运算相当于判断当前n是否为奇数，右移一位相当于n//2
+class Solution:
+    def myPow(self, x: float, n: int) -> float:
+        if x == 0.0: return 0.0
+        res = 1
+        if n < 0: x, n = 1 / x, -n
+        while n:
+            if n & 1: res *= x
+            x *= x
+            n >>= 1
+        return res
+
+

@@ -1,33 +1,3 @@
-# """暴力法，超出时间限制"""
-# class Solution:
-#     def groupAnagrams(self, strs):
-#         if not strs:
-#             return []
-#
-#         result = []
-#         def backtrack(ret_item, path_s="", list_s="eat"):
-#             if len(list_s) == 0:
-#                 for s in strs[:]:
-#                     if path_s[:] == s:
-#                         ret_item.append(path_s[:])
-#                         strs.remove(path_s)
-#                 return
-#             # 回溯法搜索可能的异位分词
-#             for i, s in enumerate(list_s):
-#                 path_s += s
-#                 backtrack(ret_item, path_s, list_s[:i]+list_s[i+1:])
-#                 path_s = path_s[:-1]
-#
-#         def search(ret_item=[], strs=strs):
-#             if len(strs) == 0:
-#                 return
-#
-#             backtrack(ret_item, list_s=strs[0])
-#             result.append(ret_item[:])
-#             search(ret_item=[], strs=strs)
-#
-#         search()
-#         return result
 
 """用26位元组对字符进行计数编码，做键"""
 import collections
@@ -50,6 +20,22 @@ class Solution(object):
             ans[tuple(sorted(s))].append(s)
         return list(ans.values())
 
+
+"""类似哈希表的方法"""
+class Solution:
+    def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
+        if not strs: return []
+        anagrams = []
+        res = []
+        for s in strs:
+            if sorted(s) in anagrams:
+                idx = anagrams.index(sorted(s))
+                res[idx].append(s)
+            else:
+                anagrams.append(sorted(s))
+                res.append([s])
+
+        return res
 
 #strs = ["eat", "tea", "tan", "ate", "nat", "bat"]
 #strs = ["c", "c"]

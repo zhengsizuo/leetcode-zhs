@@ -14,6 +14,13 @@ class Solution:
             return sum == 0
         return self.hasPathSum(root.left, sum) or self.hasPathSum(root.right, sum)
 
+"""自己写的，与官方题解思路一致"""
+class Solution:
+    def hasPathSum(self, root, sum: int) -> bool:
+        if not root: return False
+        if sum == root.val and root.left==None and root.right==None:
+            return True
+        return self.hasPathSum(root.left, sum-root.val) or self.hasPathSum(root.right, sum-root.val)
 
 # 作者：LeetCode
 # 链接：https://leetcode-cn.com/problems/path-sum/solution/lu-jing-zong-he-by-leetcode/

@@ -56,7 +56,44 @@ class Solution:
             cur_pos += 1
 
 
-"""递归法"""
+class Solution:
+    def reverseBetween(self, head: ListNode, m: int, n: int) -> ListNode:
+        if m == n:
+            return head
+
+        def reverse(a, b):
+            # 翻转区间[a,b)之间的链表
+            pre = None
+            curr = a
+            while curr != b:
+                next_tmp = curr.next
+                curr.next = pre
+                pre = curr
+                curr = next_tmp
+
+            return pre
+
+        cur_pos = 1
+        node_m = head
+        node_m_pre = head if m == 1 else None
+        while node_m and cur_pos < m:
+            if cur_pos == (m - 1):
+                node_m_pre = node_m
+            node_m = node_m.next
+            cur_pos += 1
+
+        node_n = node_m
+        while node_n and cur_pos < (n + 1):
+            node_n = node_n.next
+            cur_pos += 1
+
+        pre = reverse(node_m, node_n)
+        node_m_pre.next = pre
+        node_m.next = node_n
+
+        return head if m != 1 else pre  # 需要特别处理m为1的情况
+
+"""递归法，不高效，不推荐"""
 
 l1_list = [3, 5]
 l1, _ = create_list(l1_list)
