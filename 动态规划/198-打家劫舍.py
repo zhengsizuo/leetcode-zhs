@@ -55,3 +55,14 @@ class Solution(object):
 nums = [2, 10, 9, 1, 3]
 sl = Solution()
 print(sl.rob(nums))
+
+def robber(nums):
+    if len(nums) <= 2:
+        return max(nums)
+
+    dp = [0]*len(nums)
+    dp[0], dp[1] = nums[0], nums[1]
+    for i in range(2, len(nums)):
+        dp[i] = nums[i] + max(dp[:i-1])  # 相邻不可取
+
+    return max(dp[-2], dp[-1])
